@@ -6,12 +6,17 @@ So glad if you are able to contribute more to this notes.
 
 # Day 1 : Python Introduction
 
+Will be updated 
+
 # Day 2 : Learning Function and Condition
 
-# Day 3 : Learning 
+Will be updated 
+
+# Day 3 : Learning Iteration
+
+Will be updated 
 
 # Day 4 : Use case Python
----
 
 Algorithm of Average Calculation using Python Iteration
 ```python
