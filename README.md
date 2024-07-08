@@ -55,7 +55,6 @@ for score in students_score:
 ```
 
 # Day 5
----
 
 
 # Importing Data
