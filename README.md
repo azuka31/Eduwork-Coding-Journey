@@ -54,7 +54,7 @@ for score in students_score:
     PrevScore = score
 ```
 
-# Day 5
+# Day 5 - Mastering to Pandas
 
 
 # Importing Data
