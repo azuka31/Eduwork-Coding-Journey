@@ -9,7 +9,7 @@ So glad if you are able to contribute more to this notes.
 
 | Jul | Aug | Sep | Oct | Nov | Dec |
 | --- | --- | --- | --- | --- | --- |
-|[20240709 Intro to Pandas](documentation/20240709%-%-Introduction%to%Pandas)|     |     |     |     |     |
+|[20240709 Intro to Pandas](documentation/20240709%-%Introduction%to%Pandas)|     |     |     |     |     |
 
 # Day 1 : Python Introduction
 
