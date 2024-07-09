@@ -9,7 +9,7 @@ So glad if you are able to contribute more to this notes.
 
 | Jul | Aug | Sep | Oct | Nov | Dec |
 | --- | --- | --- | --- | --- | --- |
-|[20240709 Intro to Pandas](documentation/20240709%-%Introduction%to%Pandas.ipynb)|     |     |     |     |     |
+|[[20240709 Intro to Pandas](documentation/20240709%-%Introduction%to%Pandas.ipynb)](https://github.com/azuka31/Eduwork-Coding-Journey/blob/main/documentation/20240709%20-%20Introduction%20to%20Pandas.ipynb)|     |     |     |     |     |
 
 # Day 1 : Python Introduction
 
