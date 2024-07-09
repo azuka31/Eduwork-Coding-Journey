@@ -1,8 +1,15 @@
 # Eduwork-Coding-Journey
 Coding Compas : Navigating Through Coding
+Desc : This is my notes for my students eduwork, documenting all basic to expert
 
 Dear students, the notes below is our documentation of code that you can re-use to build your muscle memory.
 So glad if you are able to contribute more to this notes.
+
+# Meeting Notes
+
+| Jul | Aug | Sep | Oct | Nov | Dec |
+| --- | --- | --- | --- | --- | --- |
+|[20240709 Intro to Pandas](documentation/20240709%-%-Introduction%to%Pandas)|     |     |     |     |     |
 
 # Day 1 : Python Introduction
 
