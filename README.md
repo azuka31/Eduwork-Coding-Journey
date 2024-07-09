@@ -137,7 +137,7 @@ Name: count, dtype: int64
 20. Most Common Smoking Status with Stroke: never smoked
 
 
-Day 6 - Pandas Questions with Programming
+# Day 6 - Pandas Questions with Programming
 
 1.	Create a new column age_category that categorizes people into ‘Young’ (0-35 years), ‘Middle-aged’ (36-60 years), and ‘Senior’ (61+ years) using the apply function.
 2.	Calculate the total number of people in each Residence_type (Urban and Rural) and store the results in a dictionary.
