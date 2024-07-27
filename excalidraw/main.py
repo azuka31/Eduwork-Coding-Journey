@@ -1,6 +1,1 @@
-print("what")
-print("what")
-print("what")
-print("what")
-print("what")
-print("what")
+print("hello everyone")
