@@ -43,6 +43,7 @@ Algorithm of Average Calculation using Python Iteration
 ```python
 
 # Algoritma mencari max
+
 students_score = [ 80, 81, 72, 43, 84, 85, 86, 67, 88, 89, 10,
     50, 81, 72, 43, 84, 85, 86, 67, 88, 89, 10,
     70, 81, 72, 53, 84, 85, 86, 67, 88, 89, 10,
@@ -165,3 +166,7 @@ Question
 
 
 # Notes
+example markdown preview
+```python3
+import pandas as pd
+```
