@@ -163,3 +163,5 @@ Question
 9. Write a command to create a DataFrame that lists all customers who have not made any transactions.
 10. How can you extract and display the top 5 cities with the highest total transaction amounts?
 
+
+# Notes
