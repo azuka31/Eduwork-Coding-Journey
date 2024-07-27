@@ -1,2 +1,1 @@
-print('hello world')
-print('other')
+print('something else')
