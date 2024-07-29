@@ -195,3 +195,5 @@ Data1A, Data1B
 Data2A, Data2B
 ```
 Use python programming, hint you can you modulus operation (%) learn about how to decide even and odd number
+
+# Day 10
