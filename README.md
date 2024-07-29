@@ -180,7 +180,7 @@ you can choose one products, but you can challenge to visualized multiple produc
 
 # Day 9 - Data Cleansing Challenge
 
-Create python function to transform this irregular data structure [data_correlation](data/data_corellation.csv) into CSV form, 
+Create python function to transform this irregular data structure [data_correlation](data/data_correlation.csv) into CSV form, 
 
 Input;
 ```
