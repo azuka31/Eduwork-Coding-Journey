@@ -247,7 +247,7 @@ Target Audience : All customers base in continent America and Europe
 
 
 - make sure homogen based on continents
-- take 5 customers from different continents
+- take 6 customers from 2 continents (3 cust each continents)
 - add column containing 3 segments
     - push app 
     - whatsapp 
