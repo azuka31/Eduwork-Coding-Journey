@@ -2,14 +2,7 @@
 Coding Compas : Navigating Through Coding
 Desc : This is my notes for my students eduwork, documenting all basic to expert
 
-Dear students, the notes below is our documentation of code that you can re-use to build your muscle memory.
-So glad if you are able to contribute more to this notes.
-
-# Meeting Notes
-
-| Jul | Aug | Sep | Oct | Nov | Dec |
-| --- | --- | --- | --- | --- | --- |
-|[20240709 - Intro to Pandas](https://github.com/azuka31/Eduwork-Coding-Journey/blob/main/documentation/20240709%20-%20Introduction%20to%20Pandas.ipynb)|     |     |     |     |     |
+Dear students, the notes below is our documentation of code that you can re-use to build your muscle memory. So glad if you are able to contribute more to this notes.
 
 # Day 1 : Python Introduction
 
@@ -26,6 +19,7 @@ Will be updated
 # Day 4 : Use case Python
 
 Algorithm of Average Calculation using Python Iteration
+
 ```python
 def cari_rata2(students_score):
     jumlah_score = 0
@@ -41,9 +35,7 @@ def cari_rata2(students_score):
 
 Algorithm of Average Calculation using Python Iteration
 ```python
-
 # Algoritma mencari max
-
 students_score = [ 80, 81, 72, 43, 84, 85, 86, 67, 88, 89, 10,
     50, 81, 72, 43, 84, 85, 86, 67, 88, 89, 10,
     70, 81, 72, 53, 84, 85, 86, 67, 88, 89, 10,
@@ -230,8 +222,6 @@ select
 from your_table
 ```
 
-
-
 Exercise
 
 Create segmentation with 3 different treatments
@@ -245,7 +235,6 @@ Problem Definition: Finding the optimum campaign method to offer concert music
 Target Audience : All customers base in continent America and Europe
 ```
 
-
 - make sure homogen based on continents
 - take 6 customers from 2 continents (3 cust each continents)
 - add column containing 3 segments
@@ -258,9 +247,8 @@ Output
 - WA 3 America 3 Europe
 - control 3 America 3 Europe (Continent Based)
 
-
-
 ## Advanced NVIM
+
 ### Autoincrement tutorial
 - Block Vertical using ctrl v
 - type g
