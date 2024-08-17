@@ -256,7 +256,7 @@ Target Audience : All customers base in continent America and Europe
 Output
 - pushapp 3 America 3 Europe
 - WA 3 America 3 Europe
-- control 3 America 3 Europe
+- control 3 America 3 Europe (Continent Based)
 
 
 
