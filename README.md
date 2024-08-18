@@ -21,34 +21,6 @@ Dear students, the notes below is our documentation of code that you can re-use 
 | 10    | SQL - Window Function           | [Task 11](notes/task_11.md) |
 
 
-
-# Basic NVIM
-
-### Autoincrement tutorial
-- Block Vertical using ctrl v
-- type g
-- type ctrl a
-
-
-# Additionl Neovim
-
-## Mode
-1. Normal (Esc, Ctrl + [)
-    Condition: All keybindings are shortcut, you can't type in this mode
-2. Insert (i, shift + a, shift + i)
-    Condition: You can type in this mode
-3. Visual (v, Shift + v, ctrl v)
-    Condition: Blocking selected line, character
-
-## Navigation 
-Note : in normal mode
-j : down
-k : up
-h : left
-l : right
-
-block paragraph : shift + [
-
 # WorkSpcae
 
 Wanna know more about my configutaion, you can find in this directory [AzukaWorkspace](https://github.com/azuka31/AzukaWorkspace)
