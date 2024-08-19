@@ -6,7 +6,7 @@ Dear students, the notes below is our documentation of code that you can re-use 
 
 # Question Challenge
 
-| Index | Content                         | Link                       |
+| Index | Content                         | Challenge                  |
 |-------|---------------------------------|----------------------------|
 | 1     | Python Introduction             |                            |
 | 2     | Learning Function and Condition |                            |
