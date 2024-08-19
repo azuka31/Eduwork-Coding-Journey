@@ -21,6 +21,6 @@ Dear students, the notes below is our documentation of code that you can re-use 
 | 10    | SQL - Window Function           | [Task 11](notes/task_11.md) |
 
 
-# WorkSpcae
+# WorkSpace
 
 Wanna know more about my configutaion, you can find in this directory [AzukaWorkspace](https://github.com/azuka31/AzukaWorkspace)
