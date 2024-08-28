@@ -1,4 +1,4 @@
-# List of Questions for Basic SQL
+-- SQL Question
 
 Questions About the Customers Table
 
@@ -8,7 +8,7 @@ Questions About the Customers Table
 	2.	Find Customers by State:
 	•	Write a query to find all customers located in the state of ‘California’ (CA).
 	3.	Search Customers by Company:
-	•	Write a query to retrieve all customers working for the company ‘Tech Solutions Inc.’
+	•	Write a query to retrieve all customers working for the company 'Google Inc.'
 	4.	Count Customers in Each City:
 	•	Write a query to count the number of customers in each city.
 	5.	Identify Customers Without Fax:
@@ -16,9 +16,9 @@ Questions About the Customers Table
 	6.	Find Customers by Support Rep:
 	•	Write a query to list all customers assigned to the support representative with SupportRepId = 5.
 	7.	Filter Customers by Country:
-	•	Write a query to list all customers from ‘United States’.
+	•	Write a query to list all customers from 'USA'
 	8.	Search by Postal Code:
-	•	Write a query to find all customers with the postal code ‘90210’.
+	•	Write a query to find all customers with the postal code '94043-1351'
 	9.	Find Duplicate Customers:
 	•	Write a query to identify if there are any customers with the same first name, last name, and email address.
 	10.	Top Cities by Customer Count:
@@ -43,9 +43,9 @@ Questions About the Employees Table
 	17.	Find Longest-Serving Employees:
 	•	Write a query to list the top 5 employees with the earliest hire dates.
 	18.	Search Employees by Address:
-	•	Write a query to find employees living in the city ‘New York’.
+	•	Write a query to find employees living in the address 'Bowness Road'
 	19.	Filter Employees by Last Name:
-	•	Write a query to find all employees with the last name ‘Smith’.
+	•	Write a query to find all employees with the last name vocal character
 	20.	Find Employees Without a Manager:
 	•	Write a query to list all employees who do not report to anyone (ReportsTo IS NULL).
 ```
