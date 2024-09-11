@@ -54,6 +54,7 @@ Question About Joining Tables
 
 ```
 1. Find Customers and Their Support Reps:
+m employees;
    - Write a query to list each customer's first name, last name, and the first name and last name of their assigned support representative.
 
 2. Count Customers per Support Rep:
