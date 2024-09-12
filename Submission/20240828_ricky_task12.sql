@@ -194,11 +194,11 @@
 ----------------------------------------------------------------------------------------------------------
 -- QUESTION ABOUT JOINING TABLE
 
+----------------------------------------------------------------------------------------------------------
 --1. Find Customers and Their Support Reps:
 --   - Write a query to list each customer's first name, last name, and the first name and last 
 --   name of their assigned support representative.
 
-/*DELETETHIS
 SELECT 
 a.firstname CustFirstName, 
 a.lastname CustLastName,
@@ -217,13 +217,11 @@ FROM employees
 ) b 
 ON a.supportrepid = b.employeeid
 ;
-DELETETHIS*/
 
 --2. Count Customers per Support Rep:
 --   - Write a query to count how many customers are assigned to each support representative 
 --   (i.e., each employee who acts as a support rep).
 
-/*
 
 SELECT
 emplo.employeeid Sales_ID,
@@ -244,7 +242,6 @@ WHERE cust.supportrepid IS NOT NULL
 GROUP BY cust.supportrepid
 ;
 
-*/
 
 --NOTE: Esensinya sama seperti no 15, di sini yang di sync supportrepid = employeeid, supportrepid di COUNT dan
 --      disamarkan menjadi CustomersHandled (Jumlah customer yang dihandle CS)
@@ -305,7 +302,6 @@ WHERE cust.State = 'TX'
 --5. Find Customers and Their Reps by Title:
 --   - Write a query to list customers along with the title of their assigned support representative.
 
-/*
 SELECT 
 cust.firstname CustFirstName, 
 cust.lastname CustLastName,
@@ -323,7 +319,6 @@ FROM employees
 ) emplo 
 ON cust.supportrepid = emplo.employeeid
 ;
-*/
 
 --6. Top 5 Support Reps by Number of Customers:
 --   - Write a query to identify the top 5 support representatives based on the number of customers they manage.
@@ -361,7 +356,6 @@ LIMIT 1
 --8. Identify Longest-Serving Support Reps:
 --   - Write a query to list customers and their support representatives, sorted by the hire date of the support representatives (earliest first).
 
-/*
 SELECT
 cust.customerid Customer_ID,
 cust.firstname CustomerName,
@@ -382,12 +376,10 @@ ON cust.supportrepid = emplo.employeeid
 WHERE cust.supportrepid IS NOT NULL 
 ORDER BY julianday(SalesHireDate) ASC
 ;
-*/
 
 --9. Find Customers and Their Reps in Different States:
 --   - Write a query to list all customers who live in a different state than their support representative.
 
-/*
 SELECT
 cust.firstname CustomerName,
 cust.state CustomerState,
@@ -408,31 +400,28 @@ ON cust.supportrepid = emplo.employeeid
 WHERE cust.state != emplo.state
 ORDER BY cust.supportrepid ASC
 ;
-*/
 
 --10. Average Number of Customers per Rep:
 --    - Write a query to calculate the average number of customers assigned to each support representative.
 
-/*
 SELECT AVG(CustomersHandled) AverageCustomerHandled
 FROM
 (
-SELECT
-emplo.employeeid Sales_ID,
-emplo.firstname Sales_Name,
-COUNT(cust.SupportRepId) CustomersHandled
-FROM
-(
-SELECT customerid, firstname, supportrepid
-FROM customers
-) cust
-left JOIN
-(
-SELECT employeeid, firstname, lastname
-FROM employees
-) emplo
-ON cust.supportrepid = emplo.employeeid
-WHERE cust.supportrepid IS NOT NULL
-GROUP BY cust.supportrepid
+  SELECT
+  emplo.employeeid Sales_ID,
+  emplo.firstname Sales_Name,
+  COUNT(cust.SupportRepId) CustomersHandled
+  FROM
+  (
+    SELECT customerid, firstname, supportrepid
+    FROM customers
+  ) cust
+  left JOIN
+  (
+    SELECT employeeid, firstname, lastname
+    FROM employees
+  ) emplo
+  ON cust.supportrepid = emplo.employeeid
+  WHERE cust.supportrepid IS NOT NULL
+  GROUP BY cust.supportrepid
 )
-*/
