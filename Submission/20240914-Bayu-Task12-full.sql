@@ -182,13 +182,13 @@ emplo.firstname Sales_Name,
 COUNT(cust.SupportRepId) CustomersHandled
 FROM
 (
-SELECT customerid, firstname, supportrepid
-FROM customers
+  SELECT customerid, firstname, supportrepid
+  FROM customers
 ) cust
 left JOIN
 (
-SELECT employeeid, firstname, lastname
-FROM employees
+  SELECT employeeid, firstname, lastname
+  FROM employees
 ) emplo
 ON cust.supportrepid = emplo.employeeid
 WHERE cust.supportrepid IS NOT NULL
@@ -274,13 +274,13 @@ emplo.firstname Sales_Name,
 COUNT(cust.SupportRepId) CustomersHandled
 FROM
 (
-SELECT customerid, firstname, supportrepid
-FROM customers
+  SELECT customerid, firstname, supportrepid
+  FROM customers
 ) cust
 left JOIN
 (
-SELECT employeeid, firstname, lastname
-FROM employees
+  SELECT employeeid, firstname, lastname
+  FROM employees
 ) emplo
 ON cust.supportrepid = emplo.employeeid
 WHERE cust.supportrepid IS NOT NULL
@@ -316,13 +316,13 @@ emplo.firstname SalesName,
 SUBSTR(emplo.hiredate,1,10) SalesHireDate
 FROM
 (
-SELECT customerid, firstname, supportrepid
-FROM customers
+  SELECT customerid, firstname, supportrepid
+  FROM customers
 ) cust
 left JOIN
 (
-SELECT employeeid, firstname, lastname, hiredate
-FROM employees
+  SELECT employeeid, firstname, lastname, hiredate
+  FROM employees
 ) emplo
 ON cust.supportrepid = emplo.employeeid
 WHERE cust.supportrepid IS NOT NULL 
