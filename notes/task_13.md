@@ -1,4 +1,3 @@
-
 1. Basic Inner Join:  
    Write a query to list all the tracks along with their respective album titles. Ensure that the track name and album title are displayed.
 
