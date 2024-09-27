@@ -18,8 +18,15 @@ Dear students, the notes below is our documentation of code that you can re-use 
 | 8     | Data Cleansing                  | [Task 8](notes/task_8.md)   |
 | 9     | Data Visualization              | [Task 9](notes/task_9.md)   |
 | 10    | Regular Expression              | [Task 10](notes/task_10.md) |
-| 10    | SQL - Window Function           | [Task 11](notes/task_11.md) |
-| 10    | SQL - Data Exploration          | [Task 12](notes/task_12.md) |
+| 11    | SQL - Window Function           | [Task 11](notes/task_11.md) |
+| 12    | SQL - Data Exploration          | [Task 12](notes/task_12.md) |
+| 13    | SQL - Data Exercise Join        | [Task 13](notes/task_13.md) |
+| 14    | SQL - Marathon Question         | [Task 14](notes/task_14.md) |
+| 15    | Excel - SQL - Python            | [Task 15](notes/task_15.md) |
+
+# Main Data Base
+
+![pict1](picts/pict1.png)
 
 
 # WorkSpace
