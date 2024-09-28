@@ -4,8 +4,6 @@
    Ensure that the track name and album title are displayed.
 */
 
-/*
---NOTE: Inner Join AlbumId dari tabel tracks dan albums
 
 SELECT
 --trk.trackid,
@@ -25,7 +23,6 @@ INNER JOIN
 ON abm.albumid = trk.albumid
 ;
 
-*/
 
 /*
 2. Inner Join with Multiple Tables:  
@@ -33,7 +30,6 @@ ON abm.albumid = trk.albumid
    and genre for each track by joining the `tracks`, `albums`, `artists`, and `genres` tables.
 */
 
-/*
 --NOTE: Inner Join AlbumId dari tabel tracks dan albums, ArtistId dari tabel albums dan artists,
 --      lalu Inner Join GenreId dari tabel tracks dan genres
 
@@ -65,7 +61,6 @@ INNER JOIN
 ) gen
 ON trk.genreid = gen.genreid
 ;
-*/
 
 /*
 3. Join with Filtering:  
@@ -73,7 +68,6 @@ ON trk.genreid = gen.genreid
    Show the customer’s first name, last name, and genre.
 */
 
-/*
 --NOTE: Alur Inner Join: invoice -(InvoiceId)-> invoice_items -(TrackId)-> tracks -(GenreId)-> genres
 --		lalu INNER JOIN invoice -(CustomerId)-> customers
 
@@ -119,7 +113,6 @@ INNER JOIN
 ON inv.customerid = cust.customerid
 ;
 
-*/
 
 /*
 4. Left Join Example:  
@@ -127,7 +120,6 @@ ON inv.customerid = cust.customerid
    Ensure that all tracks are displayed, even if some media types do not have a corresponding name.
 */
 
-/*
 --NOTE: LEFT JOIN mediatypeid pada tabel tracks (LEFT) dan media_types
 
 SELECT
@@ -146,14 +138,12 @@ LEFT JOIN
 ) med
 ON trk.mediatypeid = med.mediatypeid
 ;
-*/
 
 /*
 5. Right Join Equivalent in SQLite
    List all albums along with the track names. Ensure that even albums with no tracks are included.
 */
 
-/*
 --NOTE: Left Join AlbumId dari tabel albums (LEFT) dan tracks
 
 SELECT
@@ -171,7 +161,6 @@ LEFT JOIN
 ) trk
 ON abm.albumid = trk.albumid
 ;
-*/
 
 /*
 6. Join and Aggregate:  
@@ -179,8 +168,7 @@ ON abm.albumid = trk.albumid
    generated for each track. Include the track name and total revenue.
 */
 
-/*
---NOTE: Kurang yakin dengan jawaban
+-- NOTE: Kurang yakin dengan jawaban
 
 SELECT
 trk.name TrackName,
@@ -197,7 +185,6 @@ INNER JOIN
 ) itm
 ON trk.trackid = itm.trackid
 ;
-*/
 
 /*
 7. Joining with Conditions:  
@@ -235,8 +222,6 @@ ON trk.albumid = abm.albumid
    manager’s first name.
 */
 
-/*
-
 SELECT
 b.firstname SubordinateName,
 b.title SubordinateTitle,
@@ -244,27 +229,24 @@ a.firstname SupervisorName,
 a.title SupervisorName
 FROM
 (
-SELECT employeeid, firstname, title, reportsto
-FROM employees
+  SELECT employeeid, firstname, title, reportsto
+  FROM employees
 ) a
 LEFT JOIN
 (
-SELECT employeeid, firstname, title, reportsto
-FROM employees
+  SELECT employeeid, firstname, title, reportsto
+  FROM employees
 ) b
 ON a.employeeid = b.reportsto
 WHERE b.reportsto IS NOT NULL
 ORDER BY a.firstname ASC
 
-*/
-
 /*
 9. Join with Date Filtering:  
-   Write a query to display all the invoices that were created in the year 2023. 
+   Write a query to display all the invoices that were created in the year 2010
    Include the invoice ID, customer’s full name, and invoice date.
 */
 
-/*
 --NOTE: Tidak ada invoice di tahun 2023, jadi kita asumsi menggunakan tahun 2010
 
 SELECT
@@ -274,18 +256,17 @@ cust.lastname,
 inv.invoicedatemade --SUBSTR(invoicedate,1,10) di sini digunakan untuk dipanggil karena yang dibutuhkan invoicedate
 FROM
 (
-SELECT invoiceid, SUBSTR(invoicedate,1,10) invoicedatemade, '2010' yearafter, customerid
-FROM invoices
+  SELECT invoiceid, SUBSTR(invoicedate,1,10) invoicedatemade, customerid
+  FROM invoices
+  WHERE SUBSTR(invoicedatemade,1,4) == '2010'
 ) inv
 LEFT JOIN
 (
-SELECT customerid, firstname, lastname
-FROM customers
+  SELECT customerid, firstname, lastname
+  FROM customers
 ) cust
 ON inv.customerid = cust.customerid
-WHERE SUBSTR(invoicedatemade,1,4) == yearafter
 ;
-*/
 
 /*
 10. Complex Join with Multiple Conditions:  
