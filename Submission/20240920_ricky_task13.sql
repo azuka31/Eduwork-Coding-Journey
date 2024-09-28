@@ -268,6 +268,8 @@ LEFT JOIN
 ON inv.customerid = cust.customerid
 ;
 
+--- RICK888
+
 /*
 10. Complex Join with Multiple Conditions:  
    Write a query to list the names of all customers who have purchased more than 5 tracks. Include the customer’s full name, number of tracks purchased, and total revenue they generated.
