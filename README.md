@@ -24,6 +24,7 @@ Dear students, the notes below is our documentation of code that you can re-use 
 | 14    | SQL - Marathon Question         | [Task 14](notes/task_14.md) |
 | 15    | Excel - SQL - Python            | [Task 15](notes/task_15.md) |
 | 16    | Introduction to Linux            | [Notes 16](notes/notes_16.md) |
+| 17    | Brainstorm EDA            | [picts](picts/pict2.png) |
 
 # Main Data Base
 
